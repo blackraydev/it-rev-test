@@ -1,11 +1,11 @@
 import React from 'react';
-import AuthBlock from '../../components/AuthBlock';
+import AuthModal from '../../components/AuthModal';
 import * as UI from './styles';
 
 const MainPage: React.FC = () => {
   return (
     <UI.PageWrapper>
-      <AuthBlock />
+      <AuthModal />
     </UI.PageWrapper>
   );
 };

@@ -6,7 +6,7 @@ import Input from '../../UI/Input';
 import Modal from '../../UI/Modal';
 import * as UI from './styles';
 
-const AuthBlock: React.FC = () => {
+const AuthModal: React.FC = () => {
   const [login, setLogin] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   const [modalOpened, setModalOpened] = useState<boolean>(false);
@@ -53,4 +53,4 @@ const AuthBlock: React.FC = () => {
   );
 };
 
-export default AuthBlock;
+export default AuthModal;
